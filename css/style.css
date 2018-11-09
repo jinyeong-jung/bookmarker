@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.header-form {
+    width: 100%;
+    height: 400px;
+    background-color: #E54B4B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sitename-container,
+.siteurl-container {
+    margin-bottom: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sitename-label,
+.siteurl-label {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.sitename-input,
+.siteurl-input {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    height: 27px;
+    padding: 5px;
+}
+
+.add-bookmark {
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #E54B4B;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.contents {
+    min-height: 245px;
+    display: flex;
+    justify-content: center;
+}
+
+.bookmark-lists {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.bookmark-wrap {
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark-wrap div {
+    margin: 10px 0;
+}
+
+.visit-btn {
+    background-color: #E54B4B;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #E54B4B;
+    font-size: 13px;
+    cursor: pointer;
+
+}
